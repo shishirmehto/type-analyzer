@@ -1,7 +1,7 @@
 {
-  "name": "type-analyzer",
+  "name": "type-analyzer-geoiq",
   "description": "Infer types from columns in JSON",
-  "version": "0.2.1",
+  "version": "0.1.1",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -24,14 +24,6 @@
     ]
   },
   "contributors": [
-    {
-      "name": "Andrew McNutt",
-      "email": "mcnutt@uber.com"
-    },
-    {
-      "name": "Chris Chua",
-      "email": "chua@uber.com"
-    }
   ],
   "license": "MIT"
 }
