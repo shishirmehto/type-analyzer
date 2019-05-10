@@ -38,7 +38,7 @@ function whichFormatGenerator(formatRegex, regexMap) {
       for (var i = 0; i < regexes.length; i++) {
         var regex = regexes[i];
         var format = regexMap[regex];
-        var newRegex = new RegExp(regex);
+        var newRegex = new RegExp( "^" + regex + "$");
         if (newRegex.test(value)) {
           return format;
         }
