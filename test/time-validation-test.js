@@ -43,7 +43,7 @@ test('#whichFormatDate', function t(assert) {
 });
 
 test('#whichFormatDateTime', function t(assert) {
-  assert.equals(whichFormatDateTime('1967/07/19 20:49:08.07'), 'YYYY/M/D HH:mm:ss.SSSS');
+  assert.equals(whichFormatDateTime('17/07/19 20:49'), 'D/M/YYYY H:m');
   assert.end();
 });
 
